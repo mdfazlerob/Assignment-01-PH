@@ -161,7 +161,7 @@ ul li a {
     border: 1px solid #eee;
     border-radius: 12px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .speaker-card img {
@@ -267,23 +267,25 @@ ul li a {
     margin: 15px 0 5px;
 }
 
-.price-text {
-    color: #888;
-    margin-bottom: 20px;
-}
+
 
 .card.active .price-text {
     color: #bbb;
 }
 
 .card ul {
-    list-style: circle;
+    display: block;
+    border-top: 1px solid #eee;
+    list-style: disc;
     margin-bottom: 25px;
     text-align: left;
+    
 }
-
+.price-text{
+    margin: 12px ;
+}
 .card ul li {
-    margin: 12px 0;
+    margin: 12px ;
 }
 
 .venue {
@@ -412,4 +414,107 @@ footer {
 
 } */
 
+/* 
+.pricing{
+    width:1440px;
+    margin:auto;
+    padding:80px 0;
+    text-align:center;
+}
 
+.pricing h1{
+    font-size:55px;
+    margin-bottom:12px;
+    font-weight:700;
+}
+
+.sub-title{
+    color:#777;
+    margin-bottom:60px;
+}
+
+.pricing-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    width:370px;
+    height:600px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:30px;
+    text-align:left;
+    background:#fff;
+}
+
+.card small{
+    font-size:13px;
+    letter-spacing:1px;
+    color:#666;
+    font-weight:bold;
+}
+
+.card h2{
+    font-size:60px;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.card span{
+    color:#777;
+    font-size:15px;
+}
+
+.card hr{
+    margin:30px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.card ul{
+    list-style:disc;
+    padding-left:20px;
+}
+
+.card ul li{
+    margin-bottom:18px;
+    color:#555;
+    font-size:15px;
+}
+
+.card button{
+    width:100%;
+    height:50px;
+    margin-top:25px;
+    border:2px solid #2b65f9;
+    background:white;
+    color:#2b65f9;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.pro{
+    background:#0f172a;
+    color:white;
+    border:none;
+}
+
+.pro small,
+.pro span,
+.pro ul li{
+    color:#d7d7d7;
+}
+
+.pro hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.pro button{
+    background:#2b65f9;
+    color:white;
+    border:none;
+} */
