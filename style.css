@@ -132,6 +132,8 @@ ul li a {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card-container {
@@ -154,6 +156,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 }
 
 .speaker-card {
